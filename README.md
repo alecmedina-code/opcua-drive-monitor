@@ -1,4 +1,4 @@
-# OPC-UA Harddrive Monitor
+# OPC-UA Drive Monitor
 The OPC-UA hardrive monitor is used to monitor harddrive states on remote machines. The service will create a OPC-UA server using asynua, monitor drives based on settings.yaml then provide the states as OPC-UA variables. The states are true/false boolean values based on if the drive passed the S.M.A.R.T drive assessment.
 ## Files
 - drive-monitoring.py
